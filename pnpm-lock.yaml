@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@tsconfig/node24':
+        specifier: 24.0.4
+        version: 24.0.4
       '@types/node':
         specifier: 25.7.0
         version: 25.7.0
@@ -442,6 +445,9 @@ packages:
 
   '@rolldown/pluginutils@1.0.0':
     resolution: {integrity: sha512-aKs/3GSWyV0mrhNmt/96/Z3yczC3yvrzYATCiCXQebBsGyYzjNdUphRVLeJQ67ySKVXRfMxt2lm12pmXvbPFQQ==}
+
+  '@tsconfig/node24@24.0.4':
+    resolution: {integrity: sha512-2A933l5P5oCbv6qSxHs7ckKwobs8BDAe9SJ/Xr2Hy+nDlwmLE1GhFh/g/vXGRZWgxBg9nX/5piDtHR9Dkw/XuA==}
 
   '@tybys/wasm-util@0.10.2':
     resolution: {integrity: sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==}
@@ -952,6 +958,8 @@ snapshots:
     optional: true
 
   '@rolldown/pluginutils@1.0.0': {}
+
+  '@tsconfig/node24@24.0.4': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

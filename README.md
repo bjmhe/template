@@ -27,5 +27,5 @@ npm i -D @lsf2e/template
 [npm-version-href]: https://npmjs.com/package/@lsf2e/template
 [npm-downloads-src]: https://img.shields.io/npm/dm/@lsf2e/template
 [npm-downloads-href]: https://www.npmcharts.com/compare/@lsf2e/template?interval=30
-[unit-test-src]: https://github.com/@lsf2e/template/actions/workflows/unit-test.yml/badge.svg
-[unit-test-href]: https://github.com/@lsf2e/template/actions/workflows/unit-test.yml
+[unit-test-src]: https://github.com/lsf2e/template/actions/workflows/unit-test.yml/badge.svg
+[unit-test-href]: https://github.com/lsf2e/template/actions/workflows/unit-test.yml

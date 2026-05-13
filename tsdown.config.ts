@@ -1,4 +1,4 @@
-import { nodeLib } from 'tsdown-preset-sxzz'
+import { nodeLib } from "tsdown-preset-sxzz";
 
 export default nodeLib(
   {},
@@ -7,4 +7,4 @@ export default nodeLib(
       tsgo: true,
     },
   },
-)
+);

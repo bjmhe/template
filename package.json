@@ -1,0 +1,46 @@
+{
+  "name": "template",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@11.0.9",
+  "description": "A template for a new project",
+  "author": "Local Services Front to End  <lsf2e@bjmhe.me>",
+  "license": "MIT",
+  "homepage": "https://github.com/lsf2e/template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsf2e/template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lsf2e/template/issues"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "types": "dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --cache",
+    "build": "tsdown",
+    "format": "prettier -w .",
+    "typecheck": "tsgo --noEmit",
+    "release": "bumpp",
+    "prepublishOnly": "pnpm run build"
+  },
+  "devDependencies": {
+    "@sxzz/eslint-config": "^8.0.0",
+    "@types/node": "^25.6.0",
+    "@typescript/native-preview": "7.0.0-dev.20260510.1",
+    "bumpp": "^11.0.1",
+    "eslint": "^10.3.0",
+    "prettier": "^3.8.3",
+    "tsdown": "^0.22.0",
+    "tsdown-preset-sxzz": "^0.6.0"
+  }
+}

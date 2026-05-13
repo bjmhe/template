@@ -1,20 +1,20 @@
 {
-  "extends": "@tsconfig/node24",
   "compilerOptions": {
-    "lib": [
-      "DOM",
-      "es2024",
-      "ESNext.Array",
-      "ESNext.Collection",
-      "ESNext.Error",
-      "ESNext.Iterator",
-      "ESNext.Promise"
-    ],
     "target": "esnext",
+    "lib": ["es2023"],
     "moduleDetection": "force",
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
-    "resolveJsonModule": true
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
   },
   "include": ["src"]
 }

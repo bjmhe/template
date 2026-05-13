@@ -25,10 +25,13 @@ importers:
         version: 1.63.0
       tsdown:
         specifier: 0.22.0
-        version: 0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20)
+        version: 0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20)(typescript@6.0.3)
       tsdown-preset-sxzz:
         specifier: 0.6.0
-        version: 0.6.0(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20))
+        version: 0.6.0(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20)(typescript@6.0.3))
+      typescript:
+        specifier: 6.0.3
+        version: 6.0.3
 
 packages:
 
@@ -688,6 +691,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   unconfig-core@7.5.0:
     resolution: {integrity: sha512-Su3FauozOGP44ZmKdHy2oE6LPjk51M/TRRjHv2HNCWiDvfvCoxC2lno6jevMA91MYAdCdwP05QnWdWpSbncX/w==}
 
@@ -1103,7 +1111,7 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  rolldown-plugin-dts@0.25.0(rolldown@1.0.0):
+  rolldown-plugin-dts@0.25.0(rolldown@1.0.0)(typescript@6.0.3):
     dependencies:
       '@babel/generator': 8.0.0-rc.4
       '@babel/helper-validator-identifier': 8.0.0-rc.4
@@ -1114,6 +1122,8 @@ snapshots:
       get-tsconfig: 5.0.0-beta.5
       obug: 2.1.1
       rolldown: 1.0.0
+    optionalDependencies:
+      typescript: 6.0.3
     transitivePeerDependencies:
       - oxc-resolver
 
@@ -1155,13 +1165,13 @@ snapshots:
 
   tree-kill@1.2.2: {}
 
-  tsdown-preset-sxzz@0.6.0(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20)):
+  tsdown-preset-sxzz@0.6.0(tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20)(typescript@6.0.3)):
     dependencies:
       '@arethetypeswrong/core': 0.18.2
       publint: 0.3.20
-      tsdown: 0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20)
+      tsdown: 0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20)(typescript@6.0.3)
 
-  tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20):
+  tsdown@0.22.0(@arethetypeswrong/core@0.18.2)(publint@0.3.20)(typescript@6.0.3):
     dependencies:
       ansis: 4.3.0
       cac: 7.0.0
@@ -1172,7 +1182,7 @@ snapshots:
       obug: 2.1.1
       picomatch: 4.0.4
       rolldown: 1.0.0
-      rolldown-plugin-dts: 0.25.0(rolldown@1.0.0)
+      rolldown-plugin-dts: 0.25.0(rolldown@1.0.0)(typescript@6.0.3)
       semver: 7.8.0
       tinyexec: 1.1.2
       tinyglobby: 0.2.16
@@ -1181,6 +1191,7 @@ snapshots:
     optionalDependencies:
       '@arethetypeswrong/core': 0.18.2
       publint: 0.3.20
+      typescript: 6.0.3
     transitivePeerDependencies:
       - '@ts-macro/tsc'
       - '@typescript/native-preview'
@@ -1191,6 +1202,8 @@ snapshots:
     optional: true
 
   typescript@5.6.1-rc: {}
+
+  typescript@6.0.3: {}
 
   unconfig-core@7.5.0:
     dependencies:

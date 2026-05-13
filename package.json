@@ -40,7 +40,8 @@
     "oxfmt": "0.48.0",
     "oxlint": "1.63.0",
     "tsdown": "0.22.0",
-    "tsdown-preset-sxzz": "0.6.0"
+    "tsdown-preset-sxzz": "0.6.0",
+    "typescript": "6.0.3"
   },
   "packageManager": "pnpm@11.0.9"
 }

@@ -16,14 +16,14 @@ importers:
         specifier: ^0.18.2
         version: 0.18.3
       '@bjmhe/automd':
-        specifier: latest
+        specifier: ^0.0.7
         version: 0.0.7(magicast@0.5.3)
       '@bjmhe/bjmhe':
-        specifier: latest
-        version: 0.0.5
+        specifier: ^1.0.2
+        version: 1.0.2
       '@bjmhe/viteplus-preset':
-        specifier: latest
-        version: 2.0.1(@arethetypeswrong/core@0.18.3)(@typescript/native-preview@7.0.0-dev.20260527.2)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite-plus@0.1.23(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.8)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.16(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))(vitest@4.1.8)
+        specifier: ^2.0.2
+        version: 2.0.2(@arethetypeswrong/core@0.18.3)(@typescript/native-preview@7.0.0-dev.20260527.2)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite-plus@0.1.23(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.8)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.16(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))(vitest@4.1.8)
       '@tsconfig/node24':
         specifier: ^24.0.4
         version: 24.0.4
@@ -115,13 +115,13 @@ packages:
     engines: {node: '>=24.16.0'}
     hasBin: true
 
-  '@bjmhe/bjmhe@0.0.5':
-    resolution: {integrity: sha512-i2NYwQ2rBbQ2pSf3K6Mv/MGjEjdzpxNKPlICfJ056qBKcTzSWdyhn709Ps2TtyyteNalzkzlMyFwc88LIdXXsw==}
+  '@bjmhe/bjmhe@1.0.2':
+    resolution: {integrity: sha512-pEQmeIAhia2oGeOwmZ02mYZH7pZL8XjY0enwuPX6apYl7ZwYoqdirX9lT8GDKjC6qqRlkm51s2lOPa3hCxrLgg==}
     engines: {node: '>=24.16.0'}
     hasBin: true
 
-  '@bjmhe/viteplus-preset@2.0.1':
-    resolution: {integrity: sha512-UA5C1Kst4QJQ66ugl4UcODzbksEDLvbdeNX4p2zS9sNVUZDrfSq61TIMLfWYPqTb65DomiLYhnJKsI8h/3Ba/A==}
+  '@bjmhe/viteplus-preset@2.0.2':
+    resolution: {integrity: sha512-gISHohHj1Az/ur9VvoFzr/i/FVzZrAqdM27K+K4N+fEHw+Jb4bE/Pfcqx6HyIM4k7xs2cLdFotwOG7qGg1TdSA==}
     engines: {node: '>=24.16.0'}
     peerDependencies:
       vite-plus: ^0.1.20
@@ -1826,12 +1826,12 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@bjmhe/bjmhe@0.0.5':
+  '@bjmhe/bjmhe@1.0.2':
     dependencies:
       '@clack/prompts': 1.5.0
       cac: 7.0.0
 
-  '@bjmhe/viteplus-preset@2.0.1(@arethetypeswrong/core@0.18.3)(@typescript/native-preview@7.0.0-dev.20260527.2)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite-plus@0.1.23(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.8)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.16(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))(vitest@4.1.8)':
+  '@bjmhe/viteplus-preset@2.0.2(@arethetypeswrong/core@0.18.3)(@typescript/native-preview@7.0.0-dev.20260527.2)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite-plus@0.1.23(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.8)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.16(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))(vitest@4.1.8)':
     dependencies:
       tsdown: 0.22.1(@arethetypeswrong/core@0.18.3)(@typescript/native-preview@7.0.0-dev.20260527.2)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)
       tsnapi: 0.3.3(vitest@4.1.8)

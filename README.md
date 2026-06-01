@@ -1,10 +1,19 @@
 # template
 
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/version/template)](https://npmx.dev/package/template)
+<!-- automd:badges bundlephobia license engine provider=npmx -->
+
+[![npm version](https://img.shields.io/npm/v/@bjmhe/template)](https://npmjs.com/package/@bjmhe/template)
+[![npm downloads](https://img.shields.io/npm/dm/@bjmhe/template)](https://npm.chart.dev/@bjmhe/template)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@bjmhe/template)](https://bundlephobia.com/package/@bjmhe/template)
+[![license](https://img.shields.io/github/license/bjmhe/template)](https://github.com/bjmhe/template/blob/main/LICENSE)
+
+<!-- /automd -->
+
+<!-- [![Open on npmx.dev](https://npmx.dev/api/registry/badge/version/template)](https://npmx.dev/package/template)
 [![Open on npmx.dev](https://npmx.dev/api/registry/badge/size/template)](https://npmx.dev/package/template)
 [![Open on npmx.dev](https://npmx.dev/api/registry/badge/downloads-year/template)](https://npmx.dev/package/template)
 [![Open on npmx.dev](https://npmx.dev/api/registry/badge/engines/template)](https://npmx.dev/package/template)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/license/template)](https://npmx.dev/package/template)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/license/template)](https://npmx.dev/package/template) -->
 
 A template for creating a TypeScript package.
 

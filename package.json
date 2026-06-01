@@ -1,53 +1,71 @@
 {
-  "name": "@lsf2e/template",
-  "type": "module",
+  "name": "@bjmhe/template",
   "version": "0.0.0",
-  "packageManager": "pnpm@11.0.9",
-  "description": "A template for a new project",
-  "author": "Local Services Front to End <lsf2e@bjmhe.me>",
+  "description": "A template for creating a TypeScript package.",
+  "keywords": [
+    "package",
+    "preset",
+    "typescript",
+    "vite",
+    "vite-plus"
+  ],
+  "homepage": "https://github.com/bjmhe/template#readme",
+  "bugs": {
+    "url": "https://github.com/bjmhe/template/issues"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/lsf2e/template#readme",
+  "author": "Benjamin He <hi@bjmhe.me>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lsf2e/template.git"
+    "url": "git+https://github.com/bjmhe/template.git"
   },
-  "bugs": {
-    "url": "https://github.com/lsf2e/template/issues"
-  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "exports": {
     ".": "./dist/index.mjs",
+    "./fmt": "./dist/fmt.mjs",
+    "./lint": "./dist/lint.mjs",
+    "./pack": "./dist/pack.mjs",
     "./package.json": "./package.json"
-  },
-  "types": "dist/index.d.mts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsdown",
-    "format": "prettier --cache --write .",
-    "lint": "eslint --cache .",
-    "lint:fix": "pnpm run lint --fix",
-    "prepublishOnly": "pnpm run build",
-    "release": "bumpp",
-    "test": "vitest run",
-    "typecheck": "tsc --noEmit"
-  },
-  "devDependencies": {
-    "@bjmhe/viteplus-preset": "^1.0.10",
-    "@sxzz/eslint-config": "8.1.0",
-    "@sxzz/prettier-config": "2.3.1",
-    "@tsconfig/node24": "24.0.4",
-    "@types/node": "25.7.0",
-    "bumpp": "11.1.0",
-    "eslint": "10.3.0",
-    "prettier": "3.8.3",
-    "tsdown": "0.22.0",
-    "tsdown-preset-sxzz": "0.6.0",
-    "tsnapi": "0.3.3",
-    "typescript": "6.0.3",
-    "vitest": "4.1.6"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "scripts": {
+    "build": "vp pack",
+    "dev": "vp pack --watch",
+    "release": "bumpp",
+    "prepublishOnly": "vp run build"
+  },
+  "dependencies": {
+    "tsdown": "^0.22.1",
+    "tsnapi": "^0.3.3"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/core": "^0.18.2",
+    "@bjmhe/bjmhe": "^0.0.3",
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^25.6.2",
+    "@typescript/native-preview": "7.0.0-dev.20260527.2",
+    "@vitest/coverage-v8": "^4.1.7",
+    "automd": "^0.4.3",
+    "bumpp": "^11.1.0",
+    "publint": "^0.3.21",
+    "typescript": "^6.0.3",
+    "unplugin-unused": "^0.5.7"
+  },
+  "peerDependencies": {
+    "vite-plus": "^0.1.20"
+  },
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "packageManager": "pnpm@11.4.0"
 }

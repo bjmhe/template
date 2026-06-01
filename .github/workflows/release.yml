@@ -1,13 +1,14 @@
 name: Release
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*"
 
 jobs:
   release:
-    uses: sxzz/workflows/.github/workflows/release.yml@main
+    uses: bjmhe/workflows/.github/workflows/release.yml@vp
     with:
       publish: true
     permissions:

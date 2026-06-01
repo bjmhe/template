@@ -1,40 +1,30 @@
-# viteplus-preset
+# template
 
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/version/@bjmhe/viteplus-preset)](https://npmx.dev/package/@bjmhe/viteplus-preset)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/size/@bjmhe/viteplus-preset)](https://npmx.dev/package/@bjmhe/viteplus-preset)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/downloads-year/@bjmhe/viteplus-preset)](https://npmx.dev/package/@bjmhe/viteplus-preset)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/engines/@bjmhe/viteplus-preset)](https://npmx.dev/package/@bjmhe/viteplus-preset)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/license/@bjmhe/viteplus-preset)](https://npmx.dev/package/@bjmhe/viteplus-preset)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/version/template)](https://npmx.dev/package/template)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/size/template)](https://npmx.dev/package/template)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/downloads-year/template)](https://npmx.dev/package/template)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/engines/template)](https://npmx.dev/package/template)
+[![Open on npmx.dev](https://npmx.dev/api/registry/badge/license/template)](https://npmx.dev/package/template)
 
 > inspired by `tsdown-preset-sxzz`
 
-A Vite Plus preset for creating a TypeScript package.
+A template for creating a TypeScript package.
 
 ## Install
 
 ```sh
 # ✨ Vite Plus
-vp add @bjmhe/viteplus-preset
+vp add template
 ```
 
 ## Usage
 
-<!-- automd:file src="./examples/vite.config.lib.ts" code lang="ts" -->
+<!-- automd:file src="./examples/helloWorld.ts" code lang="ts" -->
 
-```ts [vite.config.lib.ts]
-import { lib } from "../src";
+```ts [helloWorld.ts]
+import { helloWorld } from "../src";
 
-export default lib();
-```
-
-<!-- /automd -->
-
-<!-- automd:file src="./examples/vite.config.nodelib.ts" code lang="ts" -->
-
-```ts [vite.config.nodelib.ts]
-import { nodeLib } from "../src";
-
-export default nodeLib();
+console.log(helloWorld());
 ```
 
 <!-- /automd -->
@@ -43,11 +33,11 @@ export default nodeLib();
 
 <!-- automd:contributors markupGoLogo anon author="bjmhe" license="MIT" -->
 
-Published under the [MIT](https://github.com/bjmhe/viteplus-preset/blob/main/LICENSE) license.
-Made by [@bjmhe](https://github.com/bjmhe) and [community](https://github.com/bjmhe/viteplus-preset/graphs/contributors) 💛
+Published under the [MIT](https://github.com/bjmhe/template/blob/main/LICENSE) license.
+Made by [@bjmhe](https://github.com/bjmhe) and [community](https://github.com/bjmhe/template/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/bjmhe/viteplus-preset/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=bjmhe/viteplus-preset&anon=true" />
+<a href="https://github.com/bjmhe/template/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=bjmhe/template&anon=true" />
 </a>
 
 <!-- /automd -->

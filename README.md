@@ -10,20 +10,33 @@
 
 <!-- /automd -->
 
-<!-- [![Open on npmx.dev](https://npmx.dev/api/registry/badge/version/template)](https://npmx.dev/package/template)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/size/template)](https://npmx.dev/package/template)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/downloads-year/template)](https://npmx.dev/package/template)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/engines/template)](https://npmx.dev/package/template)
-[![Open on npmx.dev](https://npmx.dev/api/registry/badge/license/template)](https://npmx.dev/package/template) -->
-
 A template for creating a TypeScript package.
 
 ## Install
 
+<!-- automd:pm-install dev auto=false -->
+
 ```sh
-# ✨ Vite Plus
-vp add template
+# npm
+npm install -D template
+
+# yarn
+yarn add -D template
+
+# pnpm
+pnpm add -D template
+
+# bun
+bun install -D template
+
+# deno
+deno install --dev npm:template
+
+# vp
+vp install -D template
 ```
+
+<!-- /automd -->
 
 ## Usage
 

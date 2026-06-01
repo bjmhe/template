@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.2",
-    "@bjmhe/automd": "^0.0.5",
+    "@bjmhe/automd": "^0.0.7",
     "@bjmhe/bjmhe": "latest",
     "@bjmhe/viteplus-preset": "latest",
     "@tsconfig/node24": "^24.0.4",

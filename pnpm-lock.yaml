@@ -16,7 +16,7 @@ importers:
         specifier: ^0.18.2
         version: 0.18.3
       '@bjmhe/automd':
-        specifier: ^0.0.7
+        specifier: latest
         version: 0.0.7(magicast@0.5.3)
       '@bjmhe/bjmhe':
         specifier: latest

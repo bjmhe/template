@@ -44,13 +44,10 @@
     "release": "bumpp",
     "prepublishOnly": "vp run build"
   },
-  "dependencies": {
-    "tsdown": "^0.22.1",
-    "tsnapi": "^0.3.3"
-  },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.2",
     "@bjmhe/bjmhe": "^0.0.3",
+    "@bjmhe/viteplus-preset": "^1.0.10",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^25.6.2",
     "@typescript/native-preview": "7.0.0-dev.20260527.2",
@@ -58,6 +55,7 @@
     "automd": "^0.4.3",
     "bumpp": "^11.1.0",
     "publint": "^0.3.21",
+    "tsnapi": "^0.3.3",
     "typescript": "^6.0.3",
     "unplugin-unused": "^0.5.7"
   },

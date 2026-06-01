@@ -25,14 +25,11 @@
   ],
   "type": "module",
   "sideEffects": false,
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.mjs",
-    "./fmt": "./dist/fmt.mjs",
-    "./lint": "./dist/lint.mjs",
-    "./pack": "./dist/pack.mjs",
+    ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -57,9 +54,7 @@
     "publint": "^0.3.21",
     "tsnapi": "^0.3.3",
     "typescript": "^6.0.3",
-    "unplugin-unused": "^0.5.7"
-  },
-  "peerDependencies": {
+    "unplugin-unused": "^0.5.7",
     "vite-plus": "^0.1.20"
   },
   "engines": {

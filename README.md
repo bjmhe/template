@@ -6,8 +6,6 @@
 [![Open on npmx.dev](https://npmx.dev/api/registry/badge/engines/template)](https://npmx.dev/package/template)
 [![Open on npmx.dev](https://npmx.dev/api/registry/badge/license/template)](https://npmx.dev/package/template)
 
-> inspired by `tsdown-preset-sxzz`
-
 A template for creating a TypeScript package.
 
 ## Install

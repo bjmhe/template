@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.2",
-    "@bjmhe/bjmhe": "^0.0.3",
+    "@bjmhe/bjmhe": "^0.0.4",
     "@bjmhe/viteplus-preset": "^1.0.10",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^25.6.2",

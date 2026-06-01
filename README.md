@@ -2,11 +2,11 @@
 
 <!-- automd:badges bundlephobia license engine provider=npmx -->
 
-[![npm version](https://npmx.dev/api/registry/badge/version/@bjmhe/template)](https://npmjs.com/package/@bjmhe/template)
-[![npm downloads](https://npmx.dev/api/registry/badge/downloads/@bjmhe/template)](https://npm.chart.dev/@bjmhe/template)
-[![bundle size](https://npmx.dev/api/registry/badge/size/@bjmhe/template)](https://bundlephobia.com/package/@bjmhe/template)
-[![license](https://npmx.dev/api/registry/badge/license/@bjmhe/template)](https://github.com/bjmhe/template/blob/main/LICENSE)
-[![engine](https://npmx.dev/api/registry/badge/engines/@bjmhe/template)](https://npmx.dev/api/registry/badge/engines/@bjmhe/template)
+[![npm version](https://npmx.dev/api/registry/badge/version/template)](https://npmjs.com/package/template)
+[![npm downloads](https://npmx.dev/api/registry/badge/downloads/template)](https://npm.chart.dev/template)
+[![bundle size](https://npmx.dev/api/registry/badge/size/template)](https://bundlephobia.com/package/template)
+[![license](https://npmx.dev/api/registry/badge/license/template)](https://github.com/bjmhe/template/blob/main/LICENSE)
+[![engine](https://npmx.dev/api/registry/badge/engines/template)](https://npmx.dev/api/registry/badge/engines/template)
 
 <!-- /automd -->
 

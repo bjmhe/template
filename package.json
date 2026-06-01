@@ -1,5 +1,5 @@
 {
-  "name": "@bjmhe/template",
+  "name": "template",
   "version": "0.0.0",
   "description": "A template for creating a TypeScript package.",
   "keywords": [

@@ -2,11 +2,17 @@
   "extends": "@tsconfig/node24",
   "compilerOptions": {
     "target": "esnext",
-    "lib": ["es2023", "dom"],
+    "lib": ["es2023"],
     "moduleDetection": "force",
     "module": "preserve",
     "moduleResolution": "bundler",
-    "resolveJsonModule": true
-  },
-  "include": ["src", "tests"]
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "noUnusedLocals": true,
+    "declaration": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true
+  }
 }

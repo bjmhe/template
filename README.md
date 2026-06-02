@@ -50,7 +50,7 @@ console.log(helloWorld());
 
 <!-- /automd -->
 
-## Licenses
+## License
 
 <!-- automd:contributors markupGoLogo anon author="bjmhe" license="MIT" -->
 

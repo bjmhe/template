@@ -4,6 +4,8 @@
 
 # 0.0.0 (2026-06-04)
 
+# 0.0.0 (2026-06-04)
+
 ### Bug Fixes
 
 - update unit test badge links in README to reflect correct GitHub repository path ([f74dd15](https://github.com/bjmhe/template/commit/f74dd155aaae0e4b89c8bdfaa16ebbae8e5d05c1))

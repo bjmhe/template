@@ -1,4 +1,4 @@
-name: Automd
+name: AutoDoc
 
 on:
   workflow_dispatch:
@@ -28,5 +28,8 @@ jobs:
 
       - name: Docs
         run: vpx bjmhe fetch
+
+      - name: Changelog
+        run: vpx conventional-changelog -p angular -i CHANGELOG.md -s
 
       - uses: stefanzweifel/git-auto-commit-action@v7

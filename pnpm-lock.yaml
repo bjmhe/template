@@ -18,8 +18,8 @@ importers:
         specifier: ^1.0.2
         version: 1.0.2
       '@bjmhe/viteplus-preset':
-        specifier: ^2.0.6
-        version: 2.0.6(@arethetypeswrong/core@0.18.3)(publint@0.3.21)(tsnapi@0.3.3(vitest@4.1.8))(vite-plus@0.1.24(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.8)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.16(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))
+        specifier: ^2.0.7
+        version: 2.0.7(@arethetypeswrong/core@0.18.3)(publint@0.3.21)(tsnapi@0.3.3(vitest@4.1.8))(vite-plus@0.1.24(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.8)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.16(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))
       '@tsconfig/node24':
         specifier: ^24.0.4
         version: 24.0.4
@@ -95,8 +95,8 @@ packages:
     engines: {node: '>=24.16.0'}
     hasBin: true
 
-  '@bjmhe/viteplus-preset@2.0.6':
-    resolution: {integrity: sha512-ZKx7BAWBbabp1dDyxRXW+xhY5mWdFz6HxvSTd+yWM8W4Jla5l8tGoEV3d2wve9wBweh+aot6gqVtRyPMYIyGsA==}
+  '@bjmhe/viteplus-preset@2.0.7':
+    resolution: {integrity: sha512-CXL1f5HTW2qSritRWSHipsHFn2cE/iz067hY1lrCl9FjH4dMc3uOcera4Y1U5WIu2QmbUSnpeWRrGXw7FpU0SA==}
     engines: {node: '>=24.16.0'}
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.3
@@ -1689,7 +1689,7 @@ snapshots:
       '@clack/prompts': 1.5.1
       cac: 7.0.0
 
-  '@bjmhe/viteplus-preset@2.0.6(@arethetypeswrong/core@0.18.3)(publint@0.3.21)(tsnapi@0.3.3(vitest@4.1.8))(vite-plus@0.1.24(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.8)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.16(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))':
+  '@bjmhe/viteplus-preset@2.0.7(@arethetypeswrong/core@0.18.3)(publint@0.3.21)(tsnapi@0.3.3(vitest@4.1.8))(vite-plus@0.1.24(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.8)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.16(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0))':
     dependencies:
       '@arethetypeswrong/core': 0.18.3
       publint: 0.3.21

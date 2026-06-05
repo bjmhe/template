@@ -2,8 +2,8 @@
   "name": "@bjmhe/template",
   "version": "0.0.2",
   "description": "A template for creating a TypeScript package.",
-  "author": "Benjamin He <hi@bjmhe.me>",
   "license": "Apache-2.0",
+  "author": "Benjamin He <hi@bjmhe.me>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bjmhe/template.git"

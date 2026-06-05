@@ -26,15 +26,15 @@
     "access": "public"
   },
   "scripts": {
-    "build": "vp pack",
-    "dev": "vp pack --watch",
-    "release": "bumpp",
-    "prepublishOnly": "vp run build",
     "autofix": "run-s autofix:*",
     "autofix:automd": "automd",
     "autofix:bjmhe": "bjmhe fetch",
+    "autofix:check": "vp check --fix",
+    "build": "vp pack",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "autofix:check": "vp check --fix"
+    "dev": "vp pack --watch",
+    "prepublishOnly": "vp run build",
+    "release": "bumpp"
   },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.3",

@@ -7,26 +7,6 @@ on:
       - "v*"
 
 jobs:
-  changelog:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-      - name: Setup Vite Plus
-        uses: bjmhe/workflows/setup-vp@vp
-        with:
-          node-version: 24
-          persist-credentials: true
-
-      - name: Checkout PR head branch
-        if: github.event_name == 'pull_request'
-        run: git checkout -B "$GITHUB_HEAD_REF" "origin/$GITHUB_HEAD_REF"
-
-      - name: Changelog
-        run: vp run changelog
-
-      - uses: stefanzweifel/git-auto-commit-action@v7
   release:
     uses: bjmhe/workflows/.github/workflows/release.yml@vp
     with:

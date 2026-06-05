@@ -26,10 +26,6 @@
     "access": "public"
   },
   "scripts": {
-    "autofix": "run-s autofix:*",
-    "autofix:automd": "automd",
-    "autofix:bjmhe": "bjmhe fetch",
-    "autofix:check": "vp check --fix",
     "build": "vp pack",
     "dev": "vp pack --watch",
     "prepublishOnly": "vp run build",

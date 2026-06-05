@@ -1,0 +1,8 @@
+{
+  "name": "@bjmhe/template",
+  "version": "0.0.1",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  }
+}

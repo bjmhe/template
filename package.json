@@ -1,6 +1,6 @@
 {
   "name": "@bjmhe/template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A template for creating a TypeScript package.",
   "author": "Benjamin He <hi@bjmhe.me>",
   "license": "Apache-2.0",

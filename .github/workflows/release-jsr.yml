@@ -1,0 +1,13 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    uses: bjmhe/workflows/.github/workflows/release-jsr.yml@vp
+    with:
+      publish: true
+    permissions:
+      contents: write
+      id-token: write

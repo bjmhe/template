@@ -1,5 +1,5 @@
 allowBuilds:
-  '@parcel/watcher': true
+  "@parcel/watcher": true
 minimumReleaseAge: 0
 registries:
   default: https://registry.npmjs.org/
